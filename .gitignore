@@ -2,6 +2,9 @@
 **/__pycache__/
 **/cache/
 
+# evaluator files
+**/*stanford-corenlp-3.6.0*/
+
 # dataset folder
 clotho*/
 
