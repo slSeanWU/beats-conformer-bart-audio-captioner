@@ -1,0 +1,11 @@
+{
+    "num_beams": 4,
+    "early_stopping": true,
+    "min_length": 5,
+    "max_length": 100,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 3,
+    "decoder_start_token_id": 2,
+    "bos_token_id": 2,
+    "eos_token_id": 2
+}

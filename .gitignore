@@ -1,5 +1,13 @@
+# cache files
+**/__pycache__/
+**/cache/
+
 # dataset folder
-clotho/
+clotho*/
 
 # model/experiment folder
-exp/
+exp*/
+instructor*/
+
+# temporary files
+tmp*/
