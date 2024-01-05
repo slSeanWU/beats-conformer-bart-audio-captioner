@@ -61,3 +61,4 @@
   ```
   bash run_sampling_reranking.sh
   ```
+  - metrics can then be found at `./exp/inference_evaluation_nucleus_t0.5_p95/inference_metrics.json`

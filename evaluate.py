@@ -63,3 +63,9 @@ if __name__ == "__main__":
         )
 
     eval_res = evaluate_metrics_from_lists(gen_captions, true_captions)
+
+    print("[evaluation results]", eval_res[0])
+
+    open(
+        os.path.join(os.path.dirname(inference_csv), "inference_metrics.json"), "w"
+    ).write(json.dumps(eval_res[0], indent=2))
