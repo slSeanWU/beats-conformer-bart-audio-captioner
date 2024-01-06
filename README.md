@@ -51,7 +51,7 @@
   # sudo apt-get install git-lfs
   # git-lfs install
   ```
-- Get pretrained model
+- Get pretrained model (stored on [HuggingFace](https://huggingface.co/slseanwu/beats-conformer-bart-audio-captioner))
   ```
   bash download_model.sh
   ```
